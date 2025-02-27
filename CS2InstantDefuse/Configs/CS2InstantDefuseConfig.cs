@@ -1,9 +1,4 @@
 ﻿using CounterStrikeSharp.API.Core;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CS2InstantDefuse.Configs
 {
@@ -16,9 +11,7 @@ namespace CS2InstantDefuse.Configs
         public bool EnableAliveTerroristCheck { get; set; } = true;
         public bool EnableAdditionalKitCheck { get; set; } = true;
 
-
         public bool DebugBombBeep { get; set; } = false;
-        public bool Debug { get; set; } = false;
 
 
         public CS2InstantDefuseConfig() 
