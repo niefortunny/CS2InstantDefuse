@@ -4,7 +4,7 @@ namespace CS2InstantDefuse.Configs
 {
     public class CS2InstantDefuseConfig : BasePluginConfig
     {
-        public bool DetonateBombIfNotEnoughTimeForDefuse { get; set; } = true;
+        public bool DetonateBombIfNotEnoughTimeForDefuse { get; set; } = false;
 
         public bool EnableMolotovThreatCheck { get; set; } = true;
         public bool EnableHEThreatCheck { get; set; } = true;
@@ -13,8 +13,7 @@ namespace CS2InstantDefuse.Configs
 
         public bool DebugBombBeep { get; set; } = false;
 
-
-        public CS2InstantDefuseConfig() 
+        public CS2InstantDefuseConfig()
         {
             this.Version = 3;
         }
